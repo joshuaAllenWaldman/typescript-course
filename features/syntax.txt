@@ -1,0 +1,29 @@
+Type -> easy way to refer to the different properties + functions that a value has
+
+Primitive Types - number, boolean, string, null, undefined, symbol, void
+Object Types - functions, arays, classes, objects
+
+Why do we care? 
+- Types are used by the typescript compiler to analyze our code for errors
+-Types allow other engineers to understand what values are flowing around our    codebase
+
+Where do we use types: EVERYWHERE
+
+
+Type Annotations and Type Inference 
+
+Type annotations (work we do) - Code we add to tell typescript what type of value avariable will refer to
+
+Type inference (work typescript does) - Typescript tries to figure out what type of value a variable refers to
+
+annotations:
+when to use: 
+  -when we declare a variable on one line then initialize it later
+  -when we want a variable to have a type that can't be inferred
+  -when a function returns the 'any' type and we need to clarify the value
+
+
+inference:
+variable declaration     variable initialization
+  { const color }    =   'red'
+  if declaration and initializationare on the same line, Typescrip will figure out the type of 'color' for us. 

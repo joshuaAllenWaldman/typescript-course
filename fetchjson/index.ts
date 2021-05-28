@@ -2,6 +2,8 @@ import axios from 'axios';
 
 const url = 'http://jsonplaceholder.typicode.com/todos/1';
 
+
+//Interface defines a new type in this instance, type "Todo"
 interface Todo {
   id: number;
   title: string;
@@ -9,7 +11,7 @@ interface Todo {
 }
 
 axios.get(url).then(response => {
-
+  // refers to previously created Type
   const todo = response.data as Todo;
 
   const id = todo.id

@@ -2,3 +2,9 @@ First Project, make a net work request to fetch som eJSON and print the result.
 jsonplaceholder.typicode.com
 
 tsc + node = ts-node *file name* - compiles and runs in the same command
+
+interface 
+
+Syntax + Features vs Design Patterns with TS
+
+Syntax
