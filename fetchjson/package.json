@@ -12,5 +12,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "tslib": "^2.2.0"
   }
 }
