@@ -27,3 +27,8 @@ inference:
 variable declaration     variable initialization
   { const color }    =   'red'
   if declaration and initializationare on the same line, Typescrip will figure out the type of 'color' for us. 
+
+ANY
+  any is a type like string or booleanmeants ts has no idea what this is - can't check for correct property references
+  avoid variables with 'any' at all const
+
